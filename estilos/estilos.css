@@ -398,3 +398,13 @@ fieldset {
 .accordion-flush {
   color: #9c6392;
 }
+
+
+.accordion-button:not(.collapsed){
+    color: whitesmoke;
+    background-color: #9c6392;
+    }
+
+.accordion{
+  margin: 20px 20px;
+}
