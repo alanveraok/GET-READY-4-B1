@@ -302,11 +302,57 @@ h1 {
   .plataforma-img {
     display: none;
   }
+
+  .formulario {
+    margin: 40px;
+    color: whitesmoke;
+    background-image: linear-gradient(to bottom, #9c6392, #c198ad);
+  }
+  
 }
 
-fieldset {
+.formulario {
+  margin: 40px;
   background-image: linear-gradient(to bottom, #9c6392, #c198ad);
+  border: 2px solid;
 }
+
+/* @media (min-width: 767px) {
+  body {
+    background-color: white;
+    color: #9c6392;
+  }
+  .partes {
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    color: #9c6392;
+  }
+
+  .partes .writing img {
+    border: 2px solid #9c6392;
+  }
+
+  .media {
+    margin: 0 auto;
+    height: 100%;
+    width: 50%;
+  }
+
+  .news-img,
+  .plataforma-img {
+    display: none;
+  }
+
+  .formulario {
+    margin: 40px;
+    color: whitesmoke;
+    background-image: linear-gradient(to bottom, #9c6392, #c198ad);
+  }
+  
+} */
+
+
 
 /*transformaciones*/
 
