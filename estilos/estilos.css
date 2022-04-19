@@ -124,6 +124,10 @@ h1 {
   font-style: italic;
 }
 
+.navbar-toggler{
+  background-color: #9c6392;
+}
+
 /*banner e informacion*/
 
 
@@ -242,6 +246,10 @@ h1 {
   body {
     background-color: whitesmoke;
     color: #9c6392;
+  }
+
+  .navbar{
+    max-width: 100%;
   }
   .partes {
     flex-direction: column;
