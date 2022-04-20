@@ -274,6 +274,15 @@ h1 {
   .row {
     flex-direction: column;
   }
+
+
+  .cards-exams {   
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
 }
 
 /*tablet*/
