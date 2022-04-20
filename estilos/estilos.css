@@ -130,17 +130,45 @@ h1 {
 
 /*banner e informacion*/
 
-.row-cols-2 .col3 p {
-  color: whitesmoke;
-  font-size: 40px;
-  text-align: justify;
+.container-banner{
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  /* height: auto; */
+  margin: 0 auto;
 }
 
-/* .container2{
-  color: whitesmoke;
+.container-banner .col1 p{
+  font-size: 60px;
+  text-align: start;
+}
+
+.container-banner .col2 img{
+  width: 450px;
+  height: auto;
+}
+
+.succeed{
+  text-align: center;
+  font-style: italic;
   font-size: 50px;
-  justify-items: center;
-} */
+}
+
+.clearfix{
+  padding: 20px;
+  text-align: justify;
+  font-size: 50px;
+}
+
+.clearfix iframe{
+  /* width: 100%;
+  height: auto; */
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+  
+}
+
 
 /*footer*/
 .grid-footer {
@@ -275,13 +303,11 @@ h1 {
     flex-direction: column;
   }
 
-
   .cards-exams {   
     display: flex;
     gap: 10px;
     margin-left: 20px;
-    margin-right: 20px;
-    
+    margin-right: 20px;    
   }
 }
 
