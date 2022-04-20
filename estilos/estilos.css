@@ -118,6 +118,11 @@ a {
   text-decoration: none;
 }
 
+a:active{
+  background-color: #9c6392;
+  color: whitesmoke;
+}
+
 h1 {
   text-align: center;
   font-size: 50px;
@@ -255,15 +260,13 @@ h1 {
 }
 
 .news-img {
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
+text-align: center;
 }
 
 .plataforma img {
-  border: 2px solid whitesmoke;
-  margin: 0 auto;
-  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*para mobile*/
