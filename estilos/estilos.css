@@ -124,19 +124,16 @@ h1 {
   font-style: italic;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   background-color: #9c6392;
 }
 
 /*banner e informacion*/
 
-
-
 .row-cols-2 .col3 p {
   color: whitesmoke;
   font-size: 40px;
   text-align: justify;
- 
 }
 
 /* .container2{
@@ -248,9 +245,6 @@ h1 {
     color: #9c6392;
   }
 
-  .navbar{
-    max-width: 100%;
-  }
   .partes {
     flex-direction: column;
     gap: 10px;
@@ -277,10 +271,9 @@ h1 {
     display: none;
   }
 
-  .row{
+  .row {
     flex-direction: column;
   }
-
 }
 
 /*tablet*/
@@ -316,7 +309,6 @@ h1 {
     color: whitesmoke;
     background-image: linear-gradient(to bottom, #9c6392, #c198ad);
   }
-  
 }
 
 .formulario {
@@ -359,8 +351,6 @@ h1 {
   }
   
 } */
-
-
 
 /*transformaciones*/
 
@@ -427,7 +417,7 @@ h1 {
 }
 /*carrusel en parts-of-exam*/
 
-.faqs{
+.faqs {
   text-align: center;
   margin-top: 50px;
 }
@@ -453,12 +443,29 @@ h1 {
   color: #9c6392;
 }
 
+.accordion-button:not(.collapsed) {
+  color: whitesmoke;
+  background-color: #9c6392;
+}
 
-.accordion-button:not(.collapsed){
-    color: whitesmoke;
-    background-color: #9c6392;
-    }
-
-.accordion{
+.accordion {
   margin: 20px 20px;
 }
+
+.cards-exams {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card{
+  border: solid 4px black;
+}
+
+/* .card:hover {
+  transform: scale(1.2);
+}
+
+.card{
+  transition: 0.2s;
+} */
