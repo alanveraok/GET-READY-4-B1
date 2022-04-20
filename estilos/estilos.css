@@ -273,6 +273,20 @@ h1 {
     color: #9c6392;
   }
 
+  .container-banner{
+   
+    flex-direction: row-reverse;
+   
+    }
+
+    .container-banner p{
+      display: none;
+    }
+
+  .clearfix iframe{
+    width: 100%;
+  }
+
   .partes {
     flex-direction: column;
     gap: 10px;
@@ -317,6 +331,9 @@ h1 {
     background-color: white;
     color: #9c6392;
   }
+
+
+  
   .partes {
     flex-direction: column;
     gap: 10px;
